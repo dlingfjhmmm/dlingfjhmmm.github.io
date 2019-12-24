@@ -61,6 +61,45 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-dl" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/12/24/dl/" class="article-date">
+  <time datetime="2019-12-24T14:04:11.000Z" itemprop="datePublished">2019-12-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/12/24/dl/">dl</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="直角三角形（焦健审核）"><a href="#直角三角形（焦健审核）" class="headerlink" title="直角三角形（焦健审核）"></a>直角三角形（焦健审核）</h3><h4 id=""><a href="#" class="headerlink" title=""></a></h4><h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>用3点来代表一个三角形，输入三个点的坐标，实现判断此三角形是不是直角三角形，并输出此三角形的周长。</p>
+<h3 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h3><h3 id="每行6个整数分别表示三个点的横纵坐标。"><a href="#每行6个整数分别表示三个点的横纵坐标。" class="headerlink" title="每行6个整数分别表示三个点的横纵坐标。"></a>每行6个整数分别表示三个点的横纵坐标。</h3><h3 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h3><p>第一行根据是否直角三角形输出Yes或No，第二行输出三角形的周长，保留小数点后两位。如果不是三角形，输出错误信息“It cant be a Triangle！”</p>
+<p>#include&lt;stdio.h&gt;<br>#include&lt;math.h&gt;<br>int main()<br>{<br>   int x1,y1,x2,y2,x3,y3;<br>   double a,b,c,sum=0,t1,t2,t3;<br>   printf(“Please input ax,ay bx,by cx,cy:\n”);<br>   scanf(“%d,%d %d,%d %d,%d”,&amp;x1,&amp;y1,&amp;x2,&amp;y2,&amp;x3,&amp;y3);<br>   printf(“Output:\n”);<br>    t1=pow((x1-x2),2)+pow((y1-y2),2);<br>    t2=pow((x1-x3),2)+pow((y1-y3),2);<br>    t3=pow((x2-x3),2)+pow((y2-y3),2);<br>    a=sqrt(t1);<br>    b=sqrt(t2);<br>    c=sqrt(t3);<br>   if(a+b&gt;c&amp;&amp;a+c&gt;b&amp;&amp;b+c&gt;a)<br>   {<br>      if(a<em>a+b</em>b==c<em>c||a</em>a+c<em>c==b</em>b||b<em>b+c</em>c==a*a)<br>        printf(“YES\n”);<br>       else<br>        printf(“NO\n”);<br>       sum=a+b+c;<br>       printf(“%.2lf”,sum);<br>    }<br>    else<br>        printf(“It can’t be a Triangle!”);<br>    return 0;<br>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/12/24/dl/" data-id="ck4jxzshi0000x4ui9jtd92hp" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-一篇博客的来源" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/12/20/%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%9D%A5%E6%BA%90/" class="article-date">
@@ -89,7 +128,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/20/%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%9D%A5%E6%BA%90/" data-id="ck4dk69yx0003dguia1re9rx4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/12/20/%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%9D%A5%E6%BA%90/" data-id="ck4jxzshy0004x4ui2zqdhrxd" class="article-share-link">Share</a>
       
       
     </footer>
@@ -132,7 +171,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/20/Dling/" data-id="ck4dk69yt0001dguien96bvmh" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/12/20/Dling/" data-id="ck4jxzshu0001x4uidfamhvqk" class="article-share-link">Share</a>
       
       
     </footer>
@@ -195,7 +234,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/12/summary/" data-id="ck4dk69yo0000dgui76v47wo0" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/11/12/summary/" data-id="ck4jxzshx0003x4ui96erh672" class="article-share-link">Share</a>
       
       
     </footer>
@@ -244,7 +283,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/02/hello-world/" data-id="ck4dk69yv0002dguidnc80h4y" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/11/02/hello-world/" data-id="ck4jxzshv0002x4ui4xyyaq89" class="article-share-link">Share</a>
       
       
     </footer>
@@ -283,6 +322,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/12/24/dl/">dl</a>
+          </li>
         
           <li>
             <a href="/2019/12/20/%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%9D%A5%E6%BA%90/">一篇博客的来源</a>
